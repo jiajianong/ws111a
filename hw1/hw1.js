@@ -27,7 +27,7 @@ app.use((ctx) => {
   } else {
     ctx.response.body = page(`
       <h1>呂嘉融的網站</h1>
-      <input type="button" onclick="location.href='http://127.0.0.1:8000/login';" value="前往品賢會員登錄網站" />
+      <input type="button" onclick="location.href='http://127.0.0.1:8000/login';" value="登錄" />
    
     `)
   }
